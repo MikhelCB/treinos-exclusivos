@@ -23,13 +23,14 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
+  justify-content: flex-end;
 }
 
 h1 ul {
   font-family: "Mulish", sans-serif;
 }
 
-.menu:hover {
+.item:hover {
   font-weight: bold;
   text-decoration: none;
   color: #1f1534;
@@ -55,6 +56,10 @@ h1 span {
   color: #7d7987;
 }
 
+.text {
+  margin: 40px 0;
+}
+
 button {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -63,10 +68,19 @@ button {
 .fale-conosco {
   font-size: 14px;
   line-height: 28px;
+
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
   font-weight: bold;
   text-decoration: none;
   color: #1f1534;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
